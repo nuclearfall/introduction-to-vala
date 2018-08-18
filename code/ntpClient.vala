@@ -1,4 +1,4 @@
-// "#!/usr/bin/env vala --pkg=Posix" Hangs, but will work when compiled using "valac --pkg=posix"
+#!/usr/bin/env vala        // must compile with valac --pkg=posix or vala --pkg=posix
 struct NtpPacket
 {
     uint8 li_vn_mode;      // Eight bits. li, vn, and mode.
